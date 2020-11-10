@@ -75,258 +75,207 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "expat",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/expat.xcframework"
         ),
         .binaryTarget(
             name: "fontconfig",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/fontconfig.xcframework"
         ),
         .binaryTarget(
             name: "freetype",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/freetype.xcframework"
         ),
         .binaryTarget(
             name: "fribidi",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/fribidi.xcframework"
         ),
         .binaryTarget(
             name: "giflib",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/giflib.xcframework"
         ),
         .binaryTarget(
             name: "gmp",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/gmp.xcframework"
         ),
         .binaryTarget(
             name: "gnutls",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/gnutls.xcframework"
         ),
         .binaryTarget(
             name: "jpeg",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/jpeg.xcframework"
         ),
         .binaryTarget(
             name: "kvazaar",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/kvazaar.xcframework"
         ),
         .binaryTarget(
             name: "lame",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/lame.xcframework"
         ),
         .binaryTarget(
             name: "libaom",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libaom.xcframework"
         ),
         .binaryTarget(
             name: "libass",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libass.xcframework"
         ),
         .binaryTarget(
             name: "libavcodec",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libavcodec.xcframework"
         ),
         .binaryTarget(
             name: "libavdevice",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libavdevice.xcframework"
         ),
         .binaryTarget(
             name: "libavfilter",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libavfilter.xcframework"
         ),
         .binaryTarget(
             name: "libavformat",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libavformat.xcframework"
         ),
         .binaryTarget(
             name: "libavutil",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libavutil.xcframework"
         ),
         .binaryTarget(
             name: "libhogweed",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libhogweed.xcframework"
         ),
         .binaryTarget(
             name: "libilbc",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libilbc.xcframework"
         ),
         .binaryTarget(
             name: "libnettle",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libnettle.xcframework"
         ),
         .binaryTarget(
             name: "libogg",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libogg.xcframework"
         ),
         .binaryTarget(
             name: "libopencore-amrnb",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libopencore-amrnb.xcframework"
         ),
         .binaryTarget(
             name: "libpng",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libpng.xcframework"
         ),
         .binaryTarget(
             name: "libsndfile",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libsndfile.xcframework"
         ),
         .binaryTarget(
             name: "libswresample",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libswresample.xcframework"
         ),
         .binaryTarget(
             name: "libswscale",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libswscale.xcframework"
         ),
         .binaryTarget(
             name: "libtheora",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libtheora.xcframework"
         ),
         .binaryTarget(
             name: "libtheoradec",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libtheoradec.xcframework"
         ),
         .binaryTarget(
             name: "libtheoraenc",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libtheoraenc.xcframework"
         ),
         .binaryTarget(
             name: "libvidstab",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libvidstab.xcframework"
         ),
         .binaryTarget(
             name: "libvorbis",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libvorbis.xcframework"
         ),
         .binaryTarget(
             name: "libvorbisenc",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libvorbisenc.xcframework"
         ),
         .binaryTarget(
             name: "libvorbisfile",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libvorbisfile.xcframework"
         ),
         .binaryTarget(
             name: "libvpx",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libvpx.xcframework"
         ),
         .binaryTarget(
             name: "libwebp",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libwebp.xcframework"
         ),
         .binaryTarget(
             name: "libwebpdemux",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libwebpdemux.xcframework"
         ),
         .binaryTarget(
             name: "libwebpmux",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libwebpmux.xcframework"
         ),
         .binaryTarget(
             name: "libxml2",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/libxml2.xcframework"
         ),
         .binaryTarget(
             name: "mobileffmpeg",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/mobileffmpeg.xcframework"
         ),
         .binaryTarget(
             name: "opus",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/opus.xcframework"
         ),
         .binaryTarget(
             name: "shine",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/shine.xcframework"
         ),
         .binaryTarget(
             name: "snappy",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/snappy.xcframework"
         ),
         .binaryTarget(
             name: "soxr",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/soxr.xcframework"
         ),
         .binaryTarget(
             name: "speex",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/speex.xcframework"
         ),
         .binaryTarget(
             name: "tiff",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/tiff.xcframework"
         ),
         .binaryTarget(
             name: "twolame",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/twolame.xcframework"
         ),
         .binaryTarget(
             name: "vo-amrwbenc",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/vo-amrwbenc.xcframework"
         ),
         .binaryTarget(
             name: "wavpack",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/wavpack.xcframework"
         ),
         .binaryTarget(
             name: "x264",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/x264.xcframework"
         ),
         .binaryTarget(
             name: "x265",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/x265.xcframework"
         ),
         .binaryTarget(
             name: "xvidcore",
-            url: "https://github.com/tanersener/mobile-ffmpeg/releases/download/v4.4/mobile-ffmpeg-full-gpl-4.4-ios-xcframework.zip",
-            checksum: "95d669c93bbbcf50c8730d6798b7f2ce4806b24ea9e24fc0d9f73863d76eba38"
+            path: "mobile-ffmpeg/xvidcore.xcframework"
         ),
     ]
 )
